@@ -1,0 +1,138 @@
+.header {
+    padding: 57px 0 0;
+
+    &_row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /** --- header__cart --- */
+    &__cart {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        position: relative;
+
+        img {
+            border: 1px solid var(--color-azure);
+            border-radius: 90px;
+            padding: 12px;
+            cursor: pointer;
+        }
+
+        &-price {
+            color: #000;
+            text-align: right;
+            font-size: 12px;
+            font-weight: 700;
+            margin-left: 8px;
+        }
+
+        &-quantity {
+            color: #fff;
+            text-align: center;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-size: 10px;
+            font-weight: 400;
+
+            position: absolute;
+            top: 1px;
+            left: 31.5px;
+            z-index: 1;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 28px;
+            width: 14px;
+            height: 14px;
+            background-color: var(--color-azure);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+
+        &-login {
+            display: flex;
+            column-gap: 39px;
+            justify-content: space-between;
+        }
+    }
+    /* ---  --- */
+
+    /** --- header__login --- */
+    &__login {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-register {
+            display: flex;
+            font-size: 16px;
+            font-weight: 300;
+            margin-left: 8px;
+            column-gap: 7px;
+
+            a {
+                color: #000;
+                font-size: 16px;
+                font-weight: 300;
+                text-decoration: none;
+            }
+        }
+    }
+    /* ---  --- */
+
+    /* --- nav ---*/
+    &__nav {
+        padding-top: 23px;
+        margin: 0 149px 0 149px;
+
+        ul {
+            display: flex;
+            column-gap: 26px;
+        }
+
+        li {
+            display: flex;
+            position: relative;
+            border-radius: 20px;
+            border: 1px solid #6fc3c4;
+            padding: 13px 60px;
+            width: 202px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+            transition: 0.5s;
+
+            &:hover {
+                border: 0 solid var(--color-pink);
+                background: var(--color-pink);
+            }
+
+            .active {
+                padding: 20px 0;
+                border-radius: 20px;
+                background: var(--color-pink);
+            }
+        }
+
+        a {
+            display: flex;
+            position: absolute;
+            color: #000;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            width: 102%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    /* ---  --- */
+}

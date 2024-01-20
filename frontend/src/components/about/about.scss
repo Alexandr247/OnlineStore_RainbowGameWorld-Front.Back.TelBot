@@ -1,0 +1,57 @@
+.about {
+    padding: 108px 31px 0px 31px;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__title {
+        color: #000;
+        font-size: 45px;
+        font-weight: 700;
+        margin-bottom: 25px;
+    }
+
+    &__desc {
+        display: inline-table;
+        color: #808080;
+        font-size: 16px;
+        width: 540px;
+        height: 382px;
+        margin-bottom: 48px;
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        span {
+            color: #6fc3c4;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    &__btn {
+        button {
+            display: inline-block;
+            color: #000;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 90px;
+            border: 1px solid #6fc3c4;
+            background-color: #fff;
+            padding: 13px 32px;
+            transition: 0.5s;
+            cursor: pointer;
+
+            &:hover {
+                border: 1px solid #fcb;
+                background: #fcb;
+                padding: 16px 35px;
+                box-shadow: 0px 0px 10px 0px var(--color-azure);
+            }
+        }
+    }
+}

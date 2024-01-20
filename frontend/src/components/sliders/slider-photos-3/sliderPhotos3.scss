@@ -1,0 +1,112 @@
+.photos3-slider {
+    .container {
+        max-width: 445px;
+        margin: 0px auto;
+        padding: 0px 0px;
+    }
+
+    .slick-list {
+        border-radius: 20px;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+        width: 445px;
+    }
+
+    .slick-slide {
+        text-align: center;
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 47px 0px 48px 0px;
+    }
+
+    .slick-dots {
+        display: flex;
+        justify-content: space-between;
+        top: 313px;
+
+        img {
+            padding: 7px 56px;
+            height: 90px;
+        }
+
+        > li {
+            width: 207px;
+            height: 88px;
+            border-radius: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+            margin-right: 20px;
+            transition: 0.5s;
+
+            &:last-child {
+                margin-right: 0px;
+            }
+
+            &.slick-active > button {
+                font-size: 26px;
+                height: 30px;
+            }
+
+            &:hover {
+                box-shadow: 1px 1px 5px 1px var(--color-azure);
+            }
+        }
+    }
+
+    .container {
+        .slick-slide {
+            img {
+                display: inline-block;
+                height: 195px;
+            }
+        }
+
+        .slick-next {
+            background-color: none;
+            padding: 25px;
+            background-image: url("./../../../img/icons/arrow-right.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0px 166px 0px 0px;
+            transition: 0.5s;
+
+            &:hover {
+                background-image: url("./../../../img/icons/arrow-right-aqua.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: transparent;
+                padding: 28px;
+            }
+        }
+
+        .slick-prev {
+            background-color: none;
+            padding: 25px;
+            background-image: url("./../../../img/icons/arrow-left.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0px 0px 0px 166px;
+            z-index: 1;
+            transition: 0.5s;
+
+            &:hover {
+                background-image: url("./../../../img/icons/arrow-left-aqua.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-color: transparent;
+                padding: 28px;
+            }
+        }
+
+        .slick-prev::before,
+        .slick-next::before {
+            font-size: 0;
+        }
+    }
+}
+
+.photos3-slider .slick-prev {
+    left: -150px;
+}
+.photos3-slider .slick-next {
+    right: -150px;
+}

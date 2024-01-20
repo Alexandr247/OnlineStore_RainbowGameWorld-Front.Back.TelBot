@@ -1,0 +1,291 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+
+    &__content {
+        position: relative;
+        background-color: #f8f8f8;
+        padding: 20px;
+        border-radius: 20px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            width: 100%;
+            height: 100%;
+            background-image: url("./../../img/background/background-modal.svg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: 0;
+        }
+    }
+}
+
+.modal-close-button {
+    position: absolute;
+    top: -50px;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+        box-shadow: 0px 0px 10px 0px red;
+    }
+}
+
+.modal__content-inside {
+    margin: 54px 99px 60px 94px;
+}
+
+.modal__title {
+    display: flex;
+    position: relative;
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+
+    img {
+        &:first-child {
+            padding-top: 8px;
+            padding-right: 3px;
+        }
+
+        &:last-child {
+            padding-top: 8px;
+            padding-left: 3px;
+        }
+    }
+}
+
+.modal__product-name {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    width: 870px;
+}
+
+.modal__product {
+    display: flex;
+    justify-content: space-between;
+    margin: 19px 0px 61px 0px;
+}
+
+.modal__img-company {
+    display: flex;
+}
+
+.modal__img-button {
+    width: 285px;
+    height: 192px;
+    border-radius: 20px;
+    background: #fff;
+    margin-right: 24px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+
+    img {
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 15% auto;
+        margin-top: 23px;
+    }
+}
+
+.modal__company-title {
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.modal__company-manufacturer img {
+    width: 58px;
+    height: 20px;
+    margin-right: 9px;
+}
+
+.modal__company-manufacturer-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.modal__price-quantity {
+    margin: 0px 50px 0px 178px;
+}
+
+.modal__price {
+    display: flex;
+    justify-content: end;
+    color: var(--color-azure);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 52px 0px 26px 0px;
+}
+
+.modal__quantity {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 211px;
+    height: 47px;
+    z-index: 1;
+
+    button {
+        color: #fff;
+        position: absolute;
+        text-align: center;
+        font-feature-settings: lining-nums proportional-nums;
+        font-variant-numeric: lining-nums proportional-nums;
+        top: 13px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: var(--color-azure);
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+        padding: 0px;
+
+        &:nth-child(2) {
+            margin: 0px 11px 0px 20px;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover {
+                box-shadow: 0px 0px 10px 0px var(--color-azure);
+            }
+        }
+
+        &:nth-child(4) {
+            left: 177px;
+            margin-left: 11px;
+            padding: 0px 5px;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &:hover {
+                box-shadow: 0px 0px 10px 0px var(--color-azure);
+            }
+        }
+    }
+
+    span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        width: 47px;
+        height: 47px;
+        padding: 14px;
+        margin-right: 33px;
+        border-radius: 50%;
+        border: 1px;
+        background-color: #fff;
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    }
+}
+.modal__price-quantity {
+    p {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+        margin-right: 51px;
+    }
+}
+
+.modal-buttons {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: -30px;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 920px;
+        height: 1px;
+    }
+
+    button {
+        position: relative;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 90px;
+        border: 1px solid var(--color-azure);
+        box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+
+        &:first-child {
+            color: var(--color-azure);
+            padding: 12px 19px 12px 50px;
+            cursor: pointer;
+            transition: 0.5s;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 16px;
+                height: 17px;
+                margin: 13px 0px 0px 23px;
+                background-image: url(./../../img/icons/cart.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            &:hover {
+                box-shadow: 0px 0px 10px 0px var(--color-azure);
+            }
+        }
+
+        &:last-child {
+            color: #fff;
+            padding: 12px 44px 12px 71px;
+            background: var(--color-azure);
+            cursor: pointer;
+            transition: 0.5s;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 20px;
+                height: 20px;
+                margin: 12px 0px 0px 44px;
+                background-image: url(./../../img/icons/board-white.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            &:hover {
+                box-shadow: 0px 0px 10px 0px var(--color-azure);
+            }
+        }
+    }
+}

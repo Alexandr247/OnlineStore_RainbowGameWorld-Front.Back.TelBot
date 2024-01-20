@@ -1,0 +1,61 @@
+.catalog {
+    padding: 37px 0px 31px 0px;
+    background-color: #f8f8f8;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        right: -28%;
+        width: 3162px;
+        height: 2557px;
+        flex-shrink: 0;
+        background-image: url("./../../img/background/background-catalog.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: 0;
+    }
+
+    .catalog__container {
+        max-width: 1170px;
+        margin: 0px auto;
+        padding: 0px 30px;
+    }
+
+    .catalog__content {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.catalog__title {
+    position: relative;
+    color: #000;
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+
+    img {
+        &:first-child {
+            padding-top: 11px;
+            padding-right: 11px;
+        }
+
+        &:last-child {
+            padding-top: 11px;
+            padding-left: 11px;
+        }
+    }
+}
+
+.catalog__products {
+    margin-bottom: 25px;
+}
+
+.card {
+    margin-bottom: 30px;
+}

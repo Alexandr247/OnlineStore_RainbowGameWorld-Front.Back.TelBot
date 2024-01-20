@@ -1,0 +1,100 @@
+// Reset & Defaults
+
+* {
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+// Links
+
+a {
+	text-decoration: none;
+
+	&:link,
+	&:visited {
+		text-decoration: none;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+// Layout
+
+%display-block {
+	display: block;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+	@extend %display-block;
+}
+
+// Typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+ul {
+	list-style: none;
+
+	li {
+		list-style: none;
+	}
+}
+
+img {
+	vertical-align: top;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+	font-style: normal;
+}
+
+// Forms
+
+%form-defaults {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent;
+}
+
+input,
+textarea,
+button,
+select {
+	@extend %form-defaults;
+}
+
+input {
+	&::-ms-clear {
+		display: none;
+	}
+}

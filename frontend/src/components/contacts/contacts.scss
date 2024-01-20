@@ -1,0 +1,341 @@
+.contacts {
+    padding: 76px 0px 0px 0px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0%;
+        right: -35%;
+        width: 3354px;
+        height: 2762px;
+        background-image: url("./../../img/background/background-contacts.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+    }
+}
+
+.contacts__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts__contact-title {
+    position: relative;
+    color: #000;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+
+    img:first-child {
+        padding-top: 13px;
+        padding-right: 5px;
+    }
+
+    img:last-child {
+        padding-top: 13px;
+        padding-left: 5px;
+    }
+}
+
+.contacts__contact-form {
+    position: relative;
+    margin-top: 29px;
+    height: 317px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.15);
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 121px;
+        left: 0px;
+        background-color: rgba(0, 0, 0, 0.1);
+        width: 1110px;
+        height: 1px;
+    }
+}
+
+.contacts__contact-form-up {
+    display: flex;
+
+    p {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    span {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        margin-right: 11px;
+        border-radius: 50%;
+        border: 1px solid #8c3213;
+    }
+}
+
+.contacts__form-up-location,
+.contacts__form-up-time,
+.contacts__form-up-email {
+    display: flex;
+    margin-top: 40px;
+}
+.contacts__form-up-location p,
+.contacts__form-up-time p,
+.contacts__form-up-email p {
+    display: flex;
+    align-items: center;
+}
+.contacts__form-up-location {
+    img {
+        margin-left: 40px;
+    }
+
+    p {
+        width: 270px;
+    }
+}
+.contacts__form-up-time {
+    img {
+        margin-left: 142px;
+    }
+
+    p {
+        width: 52px;
+    }
+}
+.contacts__form-up-email {
+    img {
+        margin-left: 147px;
+    }
+
+    p {
+        width: 199px;
+        height: 40px;
+    }
+}
+
+.contacts__contac-form-text {
+    margin: 69px 0px 0px 40px;
+
+    p:first-child {
+        color: #6fc3c4;
+        font-size: 18px;
+        font-weight: 700;
+        width: 455px;
+        height: 26px;
+    }
+
+    p:last-child {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        height: 38px;
+        margin: 4px 129px 0px 0px;
+    }
+}
+.contacts__contact-form-down {
+    display: flex;
+
+    p {
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    span {
+        color: #000;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        margin-right: 11px;
+        border-radius: 50%;
+        border: 1px solid #8c3213;
+    }
+}
+
+.contacts__form-down-time,
+.contacts__form-down-phone1,
+.contacts__form-down-phone2 {
+    display: flex;
+    margin-top: 20px;
+
+    p {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.contacts__form-down-time {
+    img {
+        margin-left: 40px;
+    }
+    p {
+        width: 121px;
+    }
+}
+.contacts__form-down-phone1 {
+    img {
+        margin-left: 290px;
+    }
+    p {
+        width: 127px;
+    }
+}
+.contacts__form-down-phone2 {
+    img {
+        margin-left: 72px;
+    }
+    p {
+        width: 123px;
+    }
+}
+
+.contacts__write-us {
+    margin-top: 108px;
+
+    &-title {
+        position: relative;
+        color: #000;
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+
+        img:first-child {
+            padding-top: 15px;
+            padding-right: 0px;
+        }
+
+        img:last-child {
+            padding-top: 15px;
+            padding-left: 0px;
+        }
+    }
+
+    &-question {
+        color: #000;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        width: 641px;
+        height: 38px;
+        margin-top: 17px;
+    }
+
+    &-form {
+        margin: 40px 50px 0px 50px;
+    }
+}
+
+.contacts__fname-lname {
+    display: flex;
+}
+.contacts__phone-email {
+    display: flex;
+}
+
+.contacts__input-1,
+.contacts__input-2,
+.contacts__input-3,
+.contacts__input-4 {
+    width: 255px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 90px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 16px 0px 16px 21px;
+}
+.contacts__input-1,
+.contacts__input-3 {
+    margin-right: 30px;
+}
+.contacts__input-3,
+.contacts__input-4 {
+    margin-top: 20px;
+}
+.contacts__input-5 {
+    width: 540px;
+    height: 100px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 16px 0px 119px 21px;
+    margin-top: 20px;
+    position: relative;
+
+    span {
+        position: absolute;
+        top: 0px;
+        width: 170px;
+    }
+}
+
+.contacts__input-container {
+    position: relative;
+
+    input {
+        position: inherit;
+        width: 210px;
+        top: -6px;
+    }
+
+    textarea {
+        resize: none;
+        outline: none;
+        width: 498px;
+        height: 116px;
+    }
+
+    span {
+        position: absolute;
+        left: 0px;
+        top: -6px;
+        pointer-events: none;
+        transition: all 0.3s;
+        color: #484848;
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+.contacts__filled span {
+    transform: translateY(-30px);
+    font-size: 12px;
+    color: var(--color-azure);
+}
+
+.contacts {
+    &__feedback-btn {
+        display: inline-block;
+        border-radius: 90px;
+        background-color: #6fc3c4;
+        margin-top: 29px;
+        transition: 0.5s;
+
+        button {
+            color: #fff;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 13px 210px;
+        }
+    }
+}

@@ -1,0 +1,1485 @@
+@media (max-width: 1470px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    /** --- ГОЛОВНА --- */
+    /* header  */
+    .header__nav {
+        margin: 0;
+
+        ul {
+            column-gap: 33px;
+        }
+    }
+    /* promo */
+    .promo {
+        padding-top: 45px;
+
+        &__text {
+            margin-left: 166px;
+        }
+    }
+    /* about */
+    .about {
+        padding-top: 54px;
+    }
+    .about__img img {
+        width: 722px;
+    }
+    .about__text {
+        margin-left: 18px;
+    }
+    .about__title {
+        margin-bottom: 0;
+    }
+    .about__desc {
+        width: 400px;
+        margin-bottom: 0;
+    }
+    .about__btn button {
+        padding: 8px 27px;
+    }
+    /* action */
+    .action {
+        padding: 56px 0px 58px;
+        margin-top: 50px;
+    }
+    /* footer */
+    /** --- --- --- */
+
+    /** --- КАТАЛОГ --- */
+    /* catalog */
+    /** --- --- --- */
+
+    /** --- КОНТАКТЫ --- */
+    /* contacts */
+    /** --- --- --- */
+
+    /** --- ПРО НАС --- */
+    /* aboutmore */
+    .aboutMore {
+        padding: 46px 100px 110px 100px;
+    }
+    /**--- --- --- */
+
+    /** --- ВХІД ---  */
+    /* login */
+    .login__form-btn {
+        margin: 0px 300px;
+        margin-top: 37px;
+    }
+    /** --- --- --- */
+
+    /** --- РЕЄСТРАЦІЯ --- */
+    /* register */
+    .register__form-btn {
+        margin: 0px 300px;
+        margin-top: 37px;
+    }
+    /** --- --- --- */
+
+    /** --- ПРОДУКТ --- */
+    /* product */
+    .product__container {
+        padding: 0px 0px;
+    }
+    /* like  */
+    /** --- --- --- */
+
+    /** --- КОШИК ---  */
+    /* modal */
+    /** --- --- --- */
+
+    /** --- ОФОРМЛЕННЯ ЗАКАЗУ --- */
+    /* order */
+    .order__content {
+        margin: 0px 0px;
+    }
+    .order__content-left-right {
+        justify-content: space-between;
+    }
+    /** --- --- --- */
+
+    /** --- ДЯКУЄМО ЗА ЗАКАЗ --- */
+    /* thankfulness */
+    /** --- --- --- */
+}
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 970px;
+    }
+
+    /** --- ГОЛОВНА --- */
+    /* header  */
+    /* promo */
+    .promo__text {
+        margin-left: 295px;
+        margin-right: 0px;
+    }
+    .promo__title {
+        font-size: 36px;
+        width: 428px;
+        margin-right: 0px;
+    }
+    .promo__desc {
+        font-size: 25px;
+    }
+    .promo__btn a {
+        font-size: 12px;
+    }
+    .promo__qr-kode {
+        width: 250px;
+    }
+    /* about */
+    .about__title {
+        font-size: 40px;
+    }
+    .about__img img {
+        width: 562px;
+    }
+    .about__desc {
+        width: 330px;
+    }
+    /* action */
+    .horizontal1-slider .sliders__content {
+        margin: 0px 190px;
+    }
+    /* footer */
+    /** --- --- --- */
+
+    /** --- КАТАЛОГ --- */
+    /* catalog */
+    /** --- --- --- */
+
+    /** --- КОНТАКТЫ --- */
+    /* contacts  */
+    .contacts {
+        padding-top: 38px;
+    }
+    .contacts__form-up-time img {
+        margin-left: 0px;
+    }
+    .contacts__form-down-phone1 img {
+        margin-left: 150px;
+    }
+    .contacts__contact-form::after {
+        width: 910px;
+    }
+    .contacts__write-us {
+        margin-top: 54px;
+    }
+    /** --- --- --- */
+
+    /** --- ПРО НАС --- */
+    /* aboutmore */
+    .aboutMore__text {
+        margin-top: 26px;
+    }
+    /** --- --- --- */
+
+    /** --- ВХІД --- */
+    /* login */
+    .login__form-btn {
+        margin: 0px 185px;
+        margin-top: 37px;
+    }
+    /* --- --- --- */
+
+    /** --- РЕЄСТРАЦІЯ --- */
+    /* register */
+    .register__form-btn {
+        margin: 0px 185px;
+        margin-top: 37px;
+    }
+    /** --- --- --- */
+
+    /** --- ПРОДУКТ --- */
+    /* product */
+    .product__title {
+        font-size: 25px;
+        width: 400px;
+    }
+    .product__basis-company {
+        margin-left: 39px;
+    }
+    .product__company-manufacturer-text {
+        margin-right: 120px;
+    }
+    .product__company-delivery {
+        margin: 60px 0;
+        padding: 10px;
+
+        &::before {
+            top: 10px;
+            left: 152px;
+            height: 127px;
+        }
+        &::after {
+            top: 177px;
+            width: 401px;
+        }
+    }
+    .product__phone-btn button {
+        padding: 10px 10px 10px 30px;
+
+        &::before {
+            top: 10px;
+            left: 10px;
+        }
+    }
+    .product__input-1,
+    .product__input-2 {
+        padding: 16px 20px 16px 21px;
+    }
+    .input-container input {
+        width: 343px;
+    }
+    .product__input-3 {
+        width: 802px;
+        padding: 16px 100px 119px 21px;
+    }
+    textarea {
+        width: 765px;
+    }
+    /* like  */
+    /** --- --- --- */
+
+    /** --- КОШИК --- */
+    /* modal */
+    .modal__title {
+        margin-top: 24px;
+    }
+    .modal__product-name {
+        width: 736px;
+    }
+    .modal__content-inside {
+        margin: 27px 15px 15px 15px;
+    }
+    .modal__price-quantity {
+        margin: 0px 50px 0px 89px;
+    }
+    /** --- --- --- */
+
+    /** --- ОФОРМЛЕННЯ ЗАКАЗУ --- */
+    /* order */
+    .order__input-1,
+    .order__input-2,
+    .order__input-3,
+    .order__input-4 {
+        width: 200px;
+    }
+    .order__input-5 {
+        width: 430px;
+    }
+    .order__input-container {
+        input {
+            width: 160px;
+        }
+        textarea {
+            width: 395px;
+        }
+    }
+    .order__sorting {
+        width: 161px;
+
+        select {
+            width: 198px;
+            font-size: 15px;
+        }
+    }
+    .order_delivery::before,
+    .order_pay::before {
+        width: 430px;
+    }
+    .order__content-product {
+        width: 450px;
+    }
+    .order__content-products p:first-child {
+        width: 325px;
+    }
+    .order__content-summation {
+        width: 392px;
+    }
+    .order__summation-products {
+        margin: 24px 21px 0px 29px;
+    }
+    .order__content-btn {
+        width: 394px;
+
+        button {
+            padding: 15px 115px;
+        }
+    }
+    /** --- --- --- */
+
+    /** --- ДЯКУЄМО ЗА ЗАКАЗ --- */
+    /* thankfulness */
+    /** --- --- --- */
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+
+    /** --- ГОЛОВНА --- */
+    /* header  */
+    .header__nav {
+        margin: 0px;
+
+        ul {
+            column-gap: 20px;
+        }
+    }
+    /* promo */
+    .promo__text {
+        margin-left: 162px;
+    }
+    .promo__title {
+        font-size: 32px;
+        width: 358px;
+    }
+    .promo__desc {
+        font-size: 21px;
+    }
+    /* about */
+    .about__title {
+        font-size: 35px;
+    }
+    .about__img img {
+        width: 352px;
+    }
+    .about__desc {
+        width: 320px;
+    }
+    /* action */
+    .horizontal1-slider .sliders__content {
+        margin: 0px 173px;
+    }
+    /* footer */
+    /** --- --- --- */
+
+    /** --- КАТАЛОГ --- */
+    /* catalog */
+    .vertical2-slider .container {
+        max-width: 750px;
+    }
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+        transform: translate3d(45px, 0px, 0px);
+    }
+    /** --- --- --- */
+
+    /** --- КОНТАКТЫ --- */
+    /* contacts */
+    .contacts__form-up-location p {
+        width: 199px;
+    }
+    .contacts__form-up-email img {
+        margin-left: 45px;
+    }
+    .contacts__form-down-phone1 img {
+        margin-left: 20px;
+    }
+    .contacts__form-down-phone2 img {
+        margin-left: 25px;
+    }
+    .contacts__contac-form-text {
+        margin-bottom: 20px;
+    }
+    .contacts__contact-form::after {
+        width: 680px;
+    }
+    /** --- --- --- */
+
+    /** --- ПРО НАС --- */
+    /* aboutmore */
+    .aboutMore__title {
+        font-size: 43px;
+    }
+    /** --- --- --- */
+
+    /** --- ВХІД --- */
+    /* login */
+    .login {
+        padding-top: 26px;
+
+        &__form-btn {
+            margin: 0 75px;
+            margin-top: 18px;
+        }
+    }
+    /** --- --- --- */
+
+    /** --- РЕЄСТРАЦІЯ --- */
+    /* register */
+    .register {
+        padding: 26px;
+
+        &__form-btn {
+            margin: 0 75px;
+            margin-top: 18px;
+        }
+    }
+    /** --- --- --- */
+
+    /** --- ПРОДУКТ --- */
+    /* product */
+    .photos3-slider {
+        .slick-list {
+            width: 250px;
+            margin-top: 25px;
+            margin-left: -43px;
+        }
+        .slick-prev {
+            left: -164px;
+        }
+        .slick-dots > li {
+            width: 120px;
+            margin-right: 0;
+
+            img {
+                padding: 5px 5px;
+            }
+        }
+        .slick-dots {
+            left: 49px;
+            margin: -60px;
+        }
+        .container .slick-slide img {
+            height: 150px;
+        }
+    }
+    .product__company-delivery {
+        margin: 40px 0 40px 0;
+
+        &::before {
+            left: 141px;
+        }
+        &::after {
+            top: 168px;
+            width: 373px;
+        }
+    }
+    .product__title {
+        font-size: 20px;
+        width: 373px;
+    }
+    .product__company-manufacturer-text {
+        margin-right: 0px;
+    }
+    .product__description-tabs {
+        padding-top: 36px;
+    }
+    .product {
+        padding: 21px 0px 46px 0px;
+    }
+    .product__input-1,
+    .product__input-2 {
+        padding: 16px 28px 16px 21px;
+    }
+    .input-container input {
+        width: 220px;
+    }
+    .product__input-3 {
+        width: 575px;
+        padding: 16px 100px 119px 21px;
+    }
+    textarea {
+        width: 530px;
+    }
+    /* like  */
+    .like {
+        padding: 56px 0px 58px;
+    }
+    /** --- --- --- */
+
+    /** --- КОШИК --- */
+    /* modal */
+    .modal__product-name {
+        width: 650px;
+    }
+    .modal__price-quantity {
+        margin: 0px 0px 0px 52px;
+    }
+    .modal__content-inside {
+        margin: 27px 5px 5px 5px;
+    }
+    /** --- --- --- */
+
+    /** --- ОФОРМЛЕННЯ ЗАКАЗУ --- */
+    /* order */
+    .order__input-1,
+    .order__input-2,
+    .order__input-3,
+    .order__input-4 {
+        width: 149px;
+    }
+    .order__input-container input {
+        width: 107px;
+    }
+    .order__input-container textarea {
+        width: 301px;
+    }
+    .order__input-5 {
+        width: 328px;
+    }
+    .order__sorting {
+        width: 141px;
+
+        select {
+            padding-top: 12px;
+            width: 149px;
+            font-size: 10px;
+        }
+    }
+    .order_delivery::before,
+    .order_pay::before {
+        width: 330px;
+    }
+    .order__content-product {
+        width: 328px;
+    }
+    .order__content-products p:first-child {
+        width: 200px;
+    }
+    .order__content-summation {
+        width: 266px;
+    }
+    .order__summation-products {
+        margin: 24px 5px 0 5px;
+
+        p {
+            font-size: 14px;
+            width: 99px;
+        }
+    }
+    .order__summation-price p {
+        font-size: 14px;
+    }
+    .order__content-btn {
+        width: 268px;
+
+        button {
+            padding: 15px 52px;
+            font-size: 14px;
+        }
+    }
+    /** --- --- --- */
+
+    /** --- ДЯКУЄМО ЗА ЗАКАЗ --- */
+    /* thankfulness */
+    .thankfulness {
+        padding: 79px 0px 102px 0px;
+    }
+    .thankfulness__title {
+        font-size: 41px;
+    }
+    .thankfulness__text p {
+        width: 390px;
+    }
+    .thankfulness__btn-continue {
+        margin-right: 20px;
+
+        button::before {
+            top: 23px;
+            left: 20px;
+        }
+    }
+    /** --- --- --- */
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 480px;
+        padding: 0 5px;
+    }
+
+    /** --- ГОЛОВНА --- */
+    /* header */
+    .header_row > a {
+        width: 40%;
+    }
+    .header__cart img {
+        padding: 5px;
+    }
+    .header__cart::after {
+        left: 21px;
+    }
+    .header__cart-login {
+        column-gap: 10px;
+    }
+    .header__cart-price {
+        margin-left: 15px;
+    }
+    .header__cart-quantity {
+        left: 24.5px;
+    }
+    .header__login-register {
+        margin-left: 0px;
+        column-gap: 0px;
+    }
+    .header__nav {
+        margin: 0;
+
+        ul {
+            column-gap: 5px;
+
+            li {
+                padding: 5px 44px;
+            }
+        }
+    }
+    /* promo */
+    .promo__title {
+        font-size: 43px;
+        width: 468px;
+    }
+    .promo__text {
+        margin: 0 auto;
+    }
+    .promo__desc {
+        display: flex;
+        justify-content: center;
+        font-size: 31px;
+    }
+    .promo__btn {
+        display: flex;
+        justify-content: center;
+
+        a {
+            font-size: 18px;
+        }
+    }
+    .promo__qr-kode {
+        display: flex;
+        margin: 0 auto;
+    }
+    .promo__img {
+        display: none;
+    }
+    /* about */
+    .about__img {
+        display: none;
+    }
+    .about__text {
+        margin-left: 18px;
+        margin: 0 auto;
+    }
+    .about__title,
+    .about__btn {
+        display: flex;
+        justify-content: center;
+    }
+    .about__desc {
+        width: 409px;
+    }
+    /* action */
+    .horizontal1-slider {
+        .sliders__content {
+            margin: 0px 60px;
+        }
+        .slick-prev {
+            left: -60px;
+        }
+        .slick-next {
+            right: -60px;
+        }
+    }
+    /* footer  */
+    .footer__copyright {
+        font-size: 15px;
+    }
+    /** --- --- --- */
+
+    /** --- КАТАЛОГ --- */
+    /* catalog */
+    .vertical2-slider {
+        .container {
+            max-width: 575px;
+
+            .slick-slider {
+                .slick-track,
+                .slick-list {
+                    transform: translate3d(130px, 0px, 0px);
+                }
+            }
+            .slick-next {
+                margin: 973px 280px 0px 0px;
+            }
+            .slick-prev {
+                margin: 973px 0px 0px 280px;
+            }
+        }
+    }
+    /** --- --- --- */
+
+    /** --- КОНТАКТЫ --- */
+    /* contacts  */
+    .contacts__contact-form {
+        height: 200px;
+    }
+    .contacts__form-up-location,
+    .contacts__form-down-phone2 {
+        display: none;
+    }
+    .contacts__form-up-time,
+    .contacts__form-up-email {
+        margin: 5px 0px 0px 5px;
+    }
+    .contacts__contac-form-text {
+        margin: 15px 0px 0px 5px;
+        margin-bottom: 0px;
+
+        & p:last-child {
+            margin: 4px 5px 0px 0px;
+        }
+    }
+    .contacts__form-down-time,
+    .contacts__form-down-phone1 {
+        margin-top: 25px;
+
+        & img {
+            margin-left: 5px;
+        }
+    }
+    .contacts__form-up-email img {
+        margin-left: 100px;
+    }
+    .contacts__form-down-phone1 img {
+        margin-left: 36px;
+    }
+    .contacts__contact-form::after {
+        top: 55px;
+        width: 470px;
+    }
+    .contacts__write-us-question {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        width: 469px;
+    }
+    .contacts__input-1,
+    .contacts__input-2,
+    .contacts__input-3,
+    .contacts__input-4 {
+        width: 200px;
+    }
+    .contacts__input-container input {
+        width: 163px;
+    }
+    .contacts__input-5 {
+        width: 430px;
+    }
+    .contacts__input-container textarea {
+        width: 395px;
+    }
+    .contacts__feedback-btn button {
+        padding: 13px 165px;
+    }
+    /** --- --- --- */
+
+    /** --- ПРО НАС --- */
+    /* aboutmore */
+    /**--- --- --- */
+
+    /** --- ВХІД --- */
+    /* login */
+    .login__form-btn {
+        margin: 18px 0px;
+    }
+    /** --- --- --- */
+
+    /** --- РЕЄСТРАЦІЯ --- */
+    /* register */
+    .register__form-btn {
+        margin: 18px 0px;
+    }
+    .register__btn button {
+        padding: 15px 141px;
+    }
+    /** --- --- --- */
+
+    /** --- ПРОДУКТ --- */
+    /* product */
+    .product__company {
+        display: none;
+    }
+    .container .photos3-slider .slick-slide img {
+        height: 90px;
+    }
+    .photos3-slider {
+        .slick-list {
+            width: 183px;
+            height: 183px;
+            margin-left: -45px;
+        }
+        .slick-prev {
+            left: -170px;
+        }
+        .slick-next {
+            left: 140px;
+        }
+        .slick-dots > li {
+            width: 88px;
+            margin-right: 0px;
+        }
+        .slick-dots {
+            left: 123px;
+            margin: -125px;
+        }
+        .slick-dots img {
+            padding: 10px 5px;
+        }
+    }
+    .product__basis-slider {
+        width: 186px;
+        height: 398px;
+    }
+
+    .product__basis-company {
+        margin: -70px 0px 0px 0px;
+    }
+    .product__title {
+        font-size: 14px;
+        width: 241px;
+    }
+    .product__buy-btn {
+        button {
+            padding: 5px 5px 5px 30px;
+        }
+        &::before {
+            top: 7px;
+            left: 10px;
+        }
+    }
+
+    .product__company-delivery {
+        margin: 15px 0px 15px 0px;
+
+        &::before {
+            display: none;
+        }
+        &::after {
+            top: 152px;
+            width: 241px;
+        }
+    }
+    .product__description-tabs {
+        padding-top: 0px;
+    }
+    .input-container input {
+        width: 120px;
+    }
+    .product__input-3 {
+        width: 368px;
+    }
+    textarea {
+        width: 327px;
+    }
+    /* like  */
+    /** --- --- --- */
+
+    /** --- КОШИК --- */
+    /* modal */
+    .modal__company,
+    .modal-buttons button:last-child::before {
+        display: none;
+    }
+    .modal__price-quantity {
+        margin: 0px 0px 0px 10px;
+    }
+    .modal__img-button {
+        margin-right: 0px;
+        width: 150px;
+    }
+    .modal__product-name {
+        font-size: 20px;
+        width: 371px;
+    }
+    .modal-buttons button:last-child {
+        padding: 5px 5px 5px 5px;
+    }
+    /** --- --- --- */
+
+    /** --- ОФОРМЛЕННЯ ЗАКАЗУ --- */
+    /* order */
+    .order__title {
+        font-size: 35px;
+
+        img:first-child,
+        img:last-child {
+            padding-top: 9px;
+        }
+    }
+    .order__input-1,
+    .order__input-2,
+    .order__input-3,
+    .order__input-4 {
+        width: 110px;
+    }
+    .order__input-container {
+        span {
+            font-size: 14px;
+        }
+        input {
+            width: 77px;
+        }
+        textarea {
+            width: 219px;
+        }
+    }
+    .order__input-5 {
+        width: 250px;
+    }
+    .order__sorting img,
+    .order__summation-products {
+        display: none;
+    }
+    .order__sorting {
+        width: 110px;
+
+        select {
+            width: 108px;
+            padding: 12px 0 0 8px;
+        }
+    }
+    .order_delivery::before,
+    .order_pay::before {
+        width: 250px;
+    }
+    .order__content-left {
+        margin-right: 10px;
+    }
+    .order__content-product {
+        width: 210px;
+    }
+    .order__content-title {
+        padding: 15px 0px 0px 15px;
+    }
+    .order__content-summation {
+        margin-left: 15px;
+        width: 180px;
+    }
+    .order__summation-price p {
+        padding-left: 10px;
+    }
+    .order__content-btn {
+        width: 180px;
+        margin: 20px 0 0 15px;
+
+        button {
+            padding: 14px 15px;
+        }
+    }
+    .order__content-product {
+        padding-bottom: 15px;
+    }
+    .order__content-products-del img {
+        margin-left: 10px;
+    }
+    .order__content-products {
+        font-size: 10px;
+        padding: 30px 0 0 15px;
+        width: 140px;
+
+        p:first-child {
+            width: 145px;
+        }
+        .order__content-price-count p:last-child {
+            margin-left: 0;
+        }
+    }
+    /** --- --- --- */
+
+    /** --- ДЯКУЄМО ЗА ЗАКАЗ --- */
+    /* thankfulness */
+    .thankfulness__content {
+        margin: 0px 0px;
+    }
+    /** --- --- --- */
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 320px;
+        padding: 0 5px;
+    }
+
+    /** --- ГОЛОВНА --- */
+    /* header  */
+    .header_row > a {
+        width: 39%;
+    }
+    .header__cart-price {
+        font-size: 9px;
+    }
+    .header__login-register,
+    .header__login-register a {
+        font-size: 10px;
+    }
+    .header__nav {
+        ul li {
+            padding: 5px 28px;
+        }
+        a {
+            font-size: 9px;
+        }
+    }
+    /* promo */
+    .promo__title {
+        font-size: 28px;
+        width: 310px;
+        margin: 0 auto;
+    }
+    .promo__desc {
+        font-size: 23px;
+    }
+    /* about */
+    .about__desc {
+        width: 249px;
+    }
+    /* action */
+    .horizontal1-slider {
+        .sliders__content {
+            margin: 0px -17px;
+        }
+        .slick-prev {
+            left: 15px;
+        }
+        .slick-next {
+            right: 15px;
+        }
+    }
+    /* footer  */
+    .footer__logo {
+        width: 123px;
+        height: 35px;
+        margin-left: 28px;
+    }
+    .footer__copyright {
+        font-size: 10px;
+    }
+    /** --- --- --- */
+
+    /** --- КАТАЛОГ --- */
+    /* catalog */
+    /** --- --- --- */
+
+    /** --- КОНТАКТЫ --- */
+    /* contacts  */
+    .contacts__form-up-time,
+    .contacts__form-down-time {
+        display: none;
+    }
+    .contacts__form-up-email img {
+        margin-left: 0px;
+    }
+    .contacts__form-up-email {
+        display: flex;
+        justify-content: center;
+        margin: 7px auto;
+    }
+    .contacts__form-down-phone1 img {
+        margin-left: 0px;
+    }
+    .contacts__form-down-phone1 {
+        display: flex;
+        justify-content: center;
+        margin: 68px auto;
+    }
+    .contacts__contac-form-text p:first-child {
+        width: 200px;
+    }
+    .contacts__contact-form {
+        height: 259px;
+    }
+    .contacts__contact-form::after,
+    .contacts__write-us-question {
+        width: 310px;
+    }
+    .contacts__write-us-title {
+        font-size: 31px;
+
+        img:first-child,
+        img:last-child {
+            padding-top: 1px;
+        }
+    }
+    .contacts__input-1,
+    .contacts__input-3 {
+        margin-right: 5px;
+    }
+    .contacts__input-1,
+    .contacts__input-2,
+    .contacts__input-3,
+    .contacts__input-4 {
+        width: 155px;
+    }
+    .contacts__input-5 {
+        width: 315px;
+    }
+    .contacts__feedback-btn button {
+        padding: 13px 107px;
+    }
+    .contacts__write-us-form {
+        margin: 66px 50px 0px 50px;
+    }
+    .contacts__input-container input {
+        width: 122px;
+    }
+    .contacts__input-container textarea {
+        width: 292px;
+    }
+    /** --- --- --- */
+
+    /** --- ПРО НАС --- */
+    /* aboutmore */
+    .aboutMore {
+        padding: 46px 5px 110px 6px;
+    }
+    /** --- --- --- */
+
+    /** --- ВХІД --- */
+    /* login */
+    .login__btn button {
+        padding: 15px 126px;
+    }
+    /** --- --- --- */
+
+    /** --- РЕЄСТРАЦІЯ --- */
+    /* register */
+    .register__title {
+        font-size: 39px;
+    }
+    .register__btn button {
+        padding: 15px 81px;
+    }
+    /** --- --- --- */
+
+    /** --- ПРОДУКТ --- */
+    /* product */
+    .photos3-slider {
+        .slick-dots > li {
+            display: none;
+        }
+        .slick-list {
+            width: 121px;
+            height: 121px;
+            margin-left: -45px;
+        }
+        .container & {
+            .slick-slide img {
+                height: 75px;
+            }
+        }
+        .slick-slide {
+            padding: 23px 0px 48px 0px;
+        }
+        .slick-prev {
+            left: -180px;
+        }
+        .slick-next {
+            left: 85px;
+        }
+    }
+    .product__basis-company {
+        margin: 0px;
+    }
+    .product__title,
+    .product__stock,
+    .product__company-title,
+    .product__delivery > p,
+    .product__phone-btn button,
+    .product__buy-btn button {
+        font-size: 10px;
+    }
+    .product__price {
+        font-size: 15px;
+    }
+    .product__title {
+        width: 143px;
+    }
+    .product__delivery > p {
+        width: 123px;
+    }
+    .product__phone-btn {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
+        button,
+        .product__buy-btn button {
+            padding: 5px;
+        }
+        button::before,
+        .product__buy-btn::before {
+            display: none;
+        }
+    }
+    .product__company-delivery::after {
+        top: 121px;
+        width: 143px;
+    }
+    .product__basis-slider {
+        width: 186px;
+        height: 290px;
+    }
+    .active-tabs {
+        padding: 5px 25px 5px 25px;
+    }
+    .product__buy-btn::before {
+        top: 4px;
+    }
+    .tabs,
+    .product__description-content h3 {
+        font-size: 16px;
+    }
+    .content {
+        padding: 15px;
+    }
+    .product__input-1,
+    .product__input-2 {
+        padding: 15px 0px 5px 5px;
+    }
+    .product__name-email {
+        margin-top: 15px;
+    }
+    .input-container input {
+        width: 114px;
+    }
+    .product__input-3 {
+        width: 280px;
+        padding: 16px 100px 6px 5px;
+    }
+    textarea {
+        width: 255px;
+    }
+    /* like  */
+    .like__title {
+        font-size: 41px;
+    }
+    /** --- --- --- */
+
+    /** --- КОШИК --- */
+    /* modal */
+    .modal__product-name {
+        font-size: 16px;
+        width: 252px;
+    }
+    .modal__img-button {
+        height: 111px;
+
+        img {
+            height: 99px;
+            margin: 0% auto;
+            margin-top: 5px;
+        }
+    }
+    .modal-buttons {
+        button:last-child {
+            font-size: 10px;
+            padding: 2px 2px 2px 2px;
+        }
+        &::after {
+            width: 252px;
+        }
+    }
+    .modal__quantity {
+        width: 100px;
+
+        span {
+            font-size: 14px;
+            width: 30px;
+            height: 30px;
+            padding: 2px;
+            margin-right: 0px;
+        }
+        button:nth-child(2) {
+            margin: 0px 53px 0px 0px;
+        }
+        button:nth-child(4) {
+            left: 56px;
+        }
+    }
+    .modal__price-quantity {
+        margin: 0px 0px 0px 2px;
+
+        p {
+            display: none;
+        }
+    }
+    .modal__price {
+        font-size: 19px;
+        margin: 10px 0px 20px 0px;
+    }
+    .modal-close-button {
+        right: 0px;
+    }
+    /** --- --- --- */
+
+    /** --- ОФОРМЛЕННЯ ЗАКАЗУ --- */
+    /* order  */
+    .order__title {
+        font-size: 21px;
+
+        img:first-child,
+        img:last-child {
+            padding-top: 0px;
+            width: 11%;
+        }
+    }
+    .order_contacts-title {
+        width: 155px;
+    }
+    .order__input-1,
+    .order__input-2,
+    .order__input-3,
+    .order__input-4 {
+        width: 74px;
+        padding: 16px 0px 16px 10px;
+    }
+    .order__input-1,
+    .order__input-3 {
+        margin-right: 5px;
+    }
+    .order__input-container {
+        span {
+            left: 0px;
+            top: -4px;
+            font-size: 10px;
+        }
+        input {
+            width: 57px;
+        }
+    }
+    .order__input-5 {
+        width: 154px;
+        padding: 16px 0px 119px 10px;
+    }
+    .order__input-container textarea {
+        width: 143px;
+    }
+    .order__sorting:nth-child(1) {
+        margin-right: 5px;
+    }
+    .order__sorting {
+        width: 75px;
+
+        select {
+            width: 73px;
+            padding: 12px 0px 0px 2px;
+            font-size: 7px;
+        }
+    }
+    .order_delivery-title {
+        width: 153px;
+    }
+    .order_delivery::before,
+    .order_pay::before {
+        width: 154px;
+    }
+    .order_pay-title {
+        width: 155px;
+    }
+    .order_pay-choice {
+        ul {
+            font-size: 10px;
+        }
+        label {
+            display: flex;
+            align-items: center;
+        }
+    }
+    .order__content-product {
+        width: 145px;
+    }
+    .order__content-title {
+        padding: 15px 0px 0px 5px;
+        width: 140px;
+        font-size: 14px;
+    }
+    .order__content-products {
+        font-size: 10px;
+        padding: 30px 0px 0px 5px;
+        width: 140px;
+
+        p:first-child {
+            width: 99px;
+        }
+        .order__content-products-del img {
+            margin-left: 10px;
+        }
+        .order__content-price-count p:last-child {
+            margin-left: 0px;
+        }
+    }
+    .order__content-summation {
+        margin-left: 5px;
+        width: 135px;
+    }
+    .order__summation-price {
+        margin: 26px 0px 0px 0px;
+
+        p {
+            padding-left: 5px;
+            font-size: 12px;
+        }
+        span {
+            font-size: 13px;
+        }
+    }
+    .order__content-btn {
+        width: 135px;
+        margin: 20px 0px 0px 5px;
+
+        button {
+            display: flex;
+            margin: 0 auto;
+            font-size: 12px;
+            padding: 16px 1px;
+        }
+    }
+    /** --- --- --- */
+
+    /** --- ДЯКУЄМО ЗА ЗАКАЗ --- */
+    /* thankfulness */
+    .thankfulness__title {
+        font-size: 23px;
+
+        img:first-child,
+        img:last-child {
+            padding-top: 0px;
+            padding-right: 6px;
+        }
+    }
+    .thankfulness__text p {
+        width: 305px;
+    }
+    .thankfulness__btn-continue {
+        margin-right: 5px;
+
+        button {
+            font-size: 10px;
+            padding: 5px 5px 5px 34px;
+
+            &::before {
+                top: 4px;
+                left: 12px;
+            }
+        }
+    }
+    .thankfulness__btn-turn button {
+        font-size: 10px;
+        padding: 5px 5px;
+    }
+    /** --- --- --- */
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: none;
+    }
+}

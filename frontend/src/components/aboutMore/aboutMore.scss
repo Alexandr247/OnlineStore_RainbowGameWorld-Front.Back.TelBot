@@ -1,0 +1,79 @@
+.aboutMore {
+    padding: 46px 245px 110px 245px;
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -5%;
+        right: -50%;
+        width: 4000px;
+        height: 2762px;
+        flex-shrink: 0;
+        background-image: url("./../../img/background/background-aboutmore.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        z-index: -1;
+    }
+
+    &__title {
+        position: relative;
+        color: #000;
+        font-size: 45px;
+        font-weight: 700;
+        text-align: center;
+
+        img:first-child {
+            padding-top: 11px;
+            padding-right: 6px;
+        }
+
+        img:last-child {
+            padding-top: 11px;
+            padding-left: 6px;
+        }
+    }
+
+    &__text {
+        margin-top: 53px;
+
+        p {
+            color: rgba(0, 0, 0, 0.5);
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 10px;
+        }
+
+        span {
+            color: #6fc3c4;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    &__list-header {
+        margin-top: 30px;
+    }
+
+    &__header {
+        color: #6fc3c4;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    &__list {
+        color: #000;
+        font-size: 16px;
+        font-weight: 300;
+
+        .list-item::before {
+            content: "•";
+            color: #000;
+            font-size: 15px;
+            margin: 0px 10px 0px 10px;
+        }
+    }
+}
